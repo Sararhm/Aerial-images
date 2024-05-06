@@ -5,6 +5,7 @@ from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 import os
 
+
 # Function to search for images on Google Images and extract image URLs
 def search_images(query, num_images):
     search_url = f"https://www.google.com/search?tbm=isch&q={query}"
