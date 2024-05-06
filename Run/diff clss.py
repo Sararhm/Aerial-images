@@ -1,3 +1,5 @@
+#Takes different keywords representing different classes and searches for images related to each class, extracting their URLs
+
 import requests
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
