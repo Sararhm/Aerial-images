@@ -23,12 +23,12 @@ This Python script allows you to gather images from Google Images based on speci
     pip install requests beautifulsoup4
     ```
 
-3. Open the `scrape_images.py` file in a text editor.
+3. Open the `image scraper.py` file in a text editor.
 4. Modify the `class_keywords`, `angle_keywords`, `num_images_per_class`, and `save_directory` variables according to your requirements.
 5. Run the script:
 
     ```bash
-    python scrape_images.py
+    python image scraper.py
     ```
 
 6. The script will search for images, download them, and save them to the specified directory.
