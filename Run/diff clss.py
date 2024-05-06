@@ -39,11 +39,11 @@ def save_images(img_urls, save_dir, query):
 class_keywords = {
     'helicopter': ['Helicopter', 'military helicopter'],
     'aircraft': ['fighter aircraft', 'attack aircraft', 'light aircraft', 'cargo aircraft'],
-    'jet': ['Business jet'],
+    'jet': ['Private jet'],
     'airplane': ['Airliner', 'Airplane'],
     'drone': ['unmanned aircraft', 'UAV/UAM', 'UAV/UAS', 'UAV', 'Unmanned Aerial Vehicle'],
     'kite': ['flying kite', 'delta kite'],
-    'bird': ['eagle', 'falcon', 'canadian goose', 'crow']
+    'bird': ['flying eagle', 'flying falcon', 'flying canadian goose', 'flying crow']
     # Add more classes and keywords as needed
 }
 
