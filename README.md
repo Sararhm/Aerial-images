@@ -12,7 +12,7 @@ This Python script allows you to gather images from Google Images based on speci
 ## Prerequisites
 
 - Python 3.x
-- Required Python libraries: `requests`, `beautifulsoup4`
+- Required Python libraries: `requests`, `beautifulsoup4`, `pytesseract (if you want the downloaded images have no text in them)`
 
 ## Usage
 
@@ -20,7 +20,7 @@ This Python script allows you to gather images from Google Images based on speci
 2. Install the required Python libraries using pip:
 
     ```bash
-    pip install requests beautifulsoup4
+    pip install requests beautifulsoup4 pytesseract
     ```
 
 3. Open the `image-scraper.py` file in a text editor.
